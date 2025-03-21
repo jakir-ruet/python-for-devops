@@ -27,7 +27,7 @@ Python is widely used in DevOps for automation, scripting, and integration tasks
 In this guide, we’ll cover key DevOps tasks and demonstrate how Python can be used for automation and other DevOps-related tasks.
 
 ##### Pre-Requisite
-- In Python Basics
+- In [Python Basics](https://github.com/jakir-ruet/python-learning)
   - Variables, Data Types, and Operators
   - Control Structures (if, else, loops)
   - Functions and Modules
@@ -35,22 +35,33 @@ In this guide, we’ll cover key DevOps tasks and demonstrate how Python can be 
   - File I/O (reading and writing files)
   - Basic understanding of Python libraries
 
-- In Linux/Unix Basics
+- In [Linux/Unix Basics](https://github.com/jakir-ruet/ubuntu-server-administration)
   - Navigating the command line (using terminal commands)
   - File system structure
   - Processes and services management (e.g., ps, top, systemctl)
   - Permissions and users
   - Package management (e.g., apt-get, yum, pip)
 
-- Git and Version Control
+- [Git and Version Control](https://github.com/jakir-ruet/git-github-learning)
   - Basic Git commands like git clone, git commit, git push, and git pull
   - Branching and merging strategies
   - Using GitHub, GitLab, or Bitbucket for collaboration
 
-- Cloud Providers (AWS, Azure, GCP)
+- [Cloud Providers (AWS, Azure, GCP)](https://github.com/jakir-ruet/complete-cloud-computing-aws)
   - AWS: Learn how to interact with AWS services (e.g., `EC2`, `S3`, `Lambda`) using the `Boto3` library.
   - Azure: Use Python to interact with Azure resources via the azure SDK.
   - Google Cloud Platform (GCP): Work with services like Google Compute Engine or Google Cloud Storage using the google-cloud-python library.
+
+#### What is [Boto3?](https://boto3.amazonaws.com/v1/documentation/api/latest/index.html)
+Boto3 is the official AWS SDK for Python. It allows Python developers to automate AWS services such as EC2, S3, Lambda, DynamoDB, and more.
+
+##### Install Process & AWS Configuration
+```bash
+pip install boto3
+```
+```bash
+aws configure
+```
 
 ## With Regards, `Jakir`
 
